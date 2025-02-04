@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= post.title %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Quora</h1>
+    <div class="postbox">
+        <h2>Post created by @<span class="user"><%=post.username%></span>.</h2>
+        <h3>Post ID: <%=post.id%></h3>
+        <h3 class="title"><%=post.title%></h3>
+        <p class="content"><%=post.content%></p>
+    </div>
+</body>
+</html>
